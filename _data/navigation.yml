@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
-      section: services
+    #- title: "Services"
+    #  section: services
     - title: "Portfolio"
       section: portfolio
     - title: "About"
@@ -38,8 +38,8 @@ en-AU:
 # -------
 es: &DEFAULT_ES
   nav:
-    - title: "Servicios"
-      section: servicios
+   # - title: "Servicios"
+   #   section: servicios
     - title: "Portafolio"
       section: portafolio
     - title: "Sobre Nosotros"
