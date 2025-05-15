@@ -6,5 +6,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/ClusterA-DragReduction.github.io/',
+  base: '/*',
 });
