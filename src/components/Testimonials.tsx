@@ -10,21 +10,21 @@ interface TestimonialProps {
 
 const testimonials = [
   {
-    content: "华卓科技帮助我们将传统业务成功转型为数字化模式，提高了工作效率，降低了运营成本。他们的团队专业且充满创新精神，是值得信赖的合作伙伴。",
-    author: "陈总",
-    company: "合创金融",
+    content: "芯柔微纳的仿生微纳功能薄膜材料在我们的高铁项目中表现出色，显著降低了空气阻力，为我们的节能减排目标做出了重要贡献。他们的技术创新能力令人印象深刻。",
+    author: "张总",
+    company: "中国铁路科技创新中心",
     image: "https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
-    content: "选择华卓科技开发我们的企业管理系统是明智之举。他们不仅按时交付了高质量的产品，还提供了周到的售后服务。我们的效率得到了显著提升。",
-    author: "李经理",
-    company: "星辰教育集团",
+    content: "作为无人机制造商，我们一直在寻找高效的防除冰解决方案。芯柔微纳的产品完美解决了我们在极寒环境下的运营难题，大大提升了我们的产品竞争力。",
+    author: "李工程师",
+    company: "航空科技有限公司",
     image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
-    content: "作为一家初创企业，我们需要一个既专业又经济的技术合作伙伴。华卓科技超出了我们的期望，他们提供的解决方案帮助我们迅速在市场中站稳脚跟。",
-    author: "王女士",
-    company: "创新科技有限公司",
+    content: "芯柔微纳的技术团队专业性强，产品性能优异。他们的微纳结构技术在我们的风电设备上的应用，有效提升了设备效率，降低了维护成本。",
+    author: "王总监",
+    company: "新能源科技集团",
     image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   }
 ];

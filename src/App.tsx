@@ -7,11 +7,12 @@ import Team from './components/Team';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Awards from './components/Awards';
 
 function App() {
   useEffect(() => {
     // Update the document title
-    document.title = '华卓科技 - 专业技术解决方案';
+    document.title = '西安芯柔微纳科技 - 仿生微纳功能材料助力全球节能减排';
     
     // Change favicon dynamically (optional)
     const link = document.querySelector("link[rel~='icon']") as HTMLLinkElement;
@@ -26,6 +27,7 @@ function App() {
       <Hero />
       <Services />
       <About />
+      <Awards />
       <Team />
       <Testimonials />
       <Contact />
