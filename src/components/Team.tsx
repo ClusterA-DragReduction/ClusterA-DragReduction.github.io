@@ -4,7 +4,7 @@ const Team: React.FC = () => {
   const teamMembers = [
     {
       name: '何洋',
-      title: '首席科学家',
+      title: '董事长',
       description: '西北工业大学教授，在微纳功能材料领域拥有深厚的研究积累和创新成果。主持多项国家级科研项目，发表高水平学术论文数十篇，为团队提供强大的技术支持和学术指导。',
       image: '/team/heyang.png'
     },
