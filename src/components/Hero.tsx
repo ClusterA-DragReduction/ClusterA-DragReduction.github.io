@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavButton } from './Navigation';
 import { ChevronDown } from 'lucide-react';
+import ChatBot from './ChatBot';
 
 const Hero: React.FC = () => {
   return (
@@ -8,7 +9,7 @@ const Hero: React.FC = () => {
       <div 
         className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black/80 z-0"
         style={{
-          backgroundImage: "url('https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&dpr=1')",
+          backgroundImage: "url('/images/hero-bg.jpg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundBlendMode: 'multiply'
@@ -46,6 +47,8 @@ const Hero: React.FC = () => {
           <ChevronDown size={32} className="text-white" />
         </NavButton>
       </div>
+
+      <ChatBot />
     </section>
   );
 };
