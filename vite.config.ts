@@ -1,10 +1,21 @@
-import { defineConfig } from 'vite'
+// vite.config.ts
+import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/', // 使用根路径以确保正确访问静态资源
+  base: '/',
   build: {
-    outDir: 'docs' // 将输出目录改为docs
+    outDir: 'docs'
+  },
+  server: {
+    host: 'localhost',
+    port: 5173,
+    strictPort: true,
+    hmr: false,
+    watch: {
+      usePolling: true,
+      interval: 1000,
+    }
   }
-})
+});
